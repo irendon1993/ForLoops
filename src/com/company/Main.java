@@ -9,11 +9,11 @@ public class Main {
         System.out.println("10,000 at 5% interest = " + calculateInterest(10000.0, 5.0));
         System.out.println("10,000 at 6% interest = " + calculateInterest(10000.0, 6.0));
 
-        for(int i = 0; i<5; i++) {
-            System.out.println("Loop " + i + " Hello!");
+        for(int i = 2; i<9; i++) {
+            System.out.println("10,000 at " + i +"% interest = " + calculateInterest(10000,i));
         }
 
-        
+
     }
 
     public static double calculateInterest(double amount, double interestRate) {
